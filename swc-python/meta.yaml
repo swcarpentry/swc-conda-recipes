@@ -2,12 +2,16 @@ package:
   name: swc-python
   version: 1.0.0
 
+# it is undesirable to pin Python version here. It can conflict
+#    with a spec in environment.yml.  Define it there instead.
+# it is OK, however, to list Python packages that you want to
+#     include here.  They'll get downloaded for the correct
+#     python version specified in environment.yml
 
-requirements:
-  run:
-    - python  2.7.*
+#requirements:
+#  run:
 
 about:
   home:
   license: public domain.  Individual packages have their own license.
-  summary: metapackage to install Python prereqs using Miniconda for Software Carpentry workshops
+  summary: metapackage to install Python prereqs using conda for Software Carpentry workshops
