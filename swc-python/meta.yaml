@@ -1,0 +1,13 @@
+package:
+  name: swc-python
+  version: 1.0.0
+
+
+requirements:
+  run:
+    - python  2.7.*
+
+about:
+  home:
+  license: public domain.  Individual packages have their own license.
+  summary: metapackage to install Python prereqs using Miniconda for Software Carpentry workshops

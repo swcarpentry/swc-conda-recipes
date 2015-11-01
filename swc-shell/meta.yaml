@@ -1,0 +1,17 @@
+package:
+  name: swc-shell
+  version: 1.0.0
+
+requirements:
+  run:
+    # on Win, we use git_windows for both the shell and git
+    - git_windows   [win]
+    # nano is standard on OS X and practically all Linux
+    - nano          [win]
+    # console_shortcut just sets up a start shortcut to activate our environment
+    - console_shortcut [win]
+
+about:
+  home:
+  license: public domain.  Individual packages have their own license.
+  summary: metapackage to install text editor and shell prereqs using conda for Software Carpentry workshops
