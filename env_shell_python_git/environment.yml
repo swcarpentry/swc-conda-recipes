@@ -4,4 +4,5 @@ channels:
 dependencies:
   - swc-shell
   - swc-git
+  - swc-python
   - python 2.7.*
