@@ -5,7 +5,7 @@ Core concepts:
   * environment.yml should be downloaded by end-users into a folder by itself, followed by
 
 ```
-conda-env create 
+conda env create
 ```
 
 in that folder.  This creates an env named like the folder containing environment.yml.  Please keep the "name" field in environment.yml consistent with the folder name.

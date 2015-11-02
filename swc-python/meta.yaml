@@ -8,8 +8,12 @@ package:
 #     include here.  They'll get downloaded for the correct
 #     python version specified in environment.yml
 
-#requirements:
-#  run:
+requirements:
+  run:
+    - ipython-notebook
+    - matplotlib
+    - numpy
+    - scipy
 
 about:
   home:
