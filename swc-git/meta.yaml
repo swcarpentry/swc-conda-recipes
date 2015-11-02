@@ -1,0 +1,15 @@
+package:
+  name: swc-git
+  version: 1.0.0
+
+
+requirements:
+  run:
+    - git           [not win]
+    # on Win, we use git_windows for both the shell and git
+    - swc-shell     [win]
+
+about:
+  home:
+  license: public domain.  Individual packages have their own license.
+  summary: metapackage to install Git prereqs using conda for Software Carpentry workshops

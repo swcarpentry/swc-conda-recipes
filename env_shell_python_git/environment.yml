@@ -1,0 +1,8 @@
+name: swc-shell-python-git
+channels:
+  - swc
+dependencies:
+  - swc-shell
+  - swc-git
+  - swc-python
+  - python=3.*
