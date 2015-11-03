@@ -5,4 +5,4 @@ dependencies:
   - swc-shell
   - swc-git
   - swc-python
-  - python=3.*
+  - python=3.4.*
