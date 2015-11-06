@@ -1,6 +1,6 @@
 package:
   name: swc-python
-  version: 1.0.0
+  version: 1.0.1
 
 # it is undesirable to pin Python version here. It can conflict
 #    with a spec in environment.yml.  Define it there instead.
